@@ -7,12 +7,39 @@ RESET
     box-sizing: border-box;
 }
 
+/* GENERAL */
+
 body {
     background-color: rgb(160, 4, 4);
+    text-align: center;
 
 }
 
-/*GENERAL*/
+.color {
+    margin-bottom: 30px;
+}
 
+.color-blue {
+    color: rgb(255, 255, 255);
+}
 
-/*MAIN*/
+/* HEADER */
+
+.container >* {
+    float: left;
+    width: 33%;
+
+}
+
+/* MAIN */
+
+.scheda {
+    
+}
+
+.card img {
+
+    width: 35%;
+    float: left;
+    
+}
