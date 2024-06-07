@@ -10,36 +10,55 @@ RESET
 /* GENERAL */
 
 body {
-    background-color: rgb(160, 4, 4);
+    background-color: rgb(255, 255, 255);
     text-align: center;
+    width: 80%;
+    margin: auto;
 
 }
 
 .color {
     margin-bottom: 30px;
+    color: rgb(250, 24, 171);
 }
 
 .color-blue {
-    color: rgb(255, 255, 255);
+    color: rgb(5, 140, 224);
 }
+
 
 /* HEADER */
 
 .container >* {
     float: left;
     width: 33%;
+    margin-top: 40px;
 
 }
+
 
 /* MAIN */
 
 .scheda {
-    
+    color: antiquewhite;
+ 
+}
+
+.card {
+    background-color: black;
+    float: left;
+    width: 65%;
+    margin-left: 70px;
+    margin-right: 90px;
+    margin-bottom: 20px;
 }
 
 .card img {
-
     width: 35%;
     float: left;
-    
+    display: block;
+}
+
+.description {
+    text-align: left;
 }
